@@ -19,6 +19,7 @@ class Square:
             ValueErrorr: if size < 0
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
