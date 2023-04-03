@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""A Rectangle class that defines a rectangle"""
+"""A Rectangle class to define a rectangle"""
 
 
 class Rectangle:
-    """To represent the rectangle"""
+    """to represent the rectangle"""
 
     def __init__(self, width=0, height=0):
         """Initializing this rectangle class
@@ -44,4 +44,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
